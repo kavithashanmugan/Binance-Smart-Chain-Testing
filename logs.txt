@@ -1,0 +1,71 @@
+PS F:\Binance Smart Chain> truffle migrate --reset --network binanceTestnet
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Migrations.sol
+> Compiling .\contracts\MyContract.sol
+> Artifacts written to F:\Binance Smart Chain\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.0+commit.c7dfd78e.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'binanceTestnet'
+> Network id:      97
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x14d337090c663ed843c96cc7fad4622aaf78c27967aa3b8c7e09475dfa731bf1
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x3269C0a72a5c897FB4Ff334230422aA308a24B05
+   > block number:        8966547
+   > block timestamp:     1621391976
+   > account:             0x4c520f09A9e4F294Eb639E64cb51c46dCB9785dd
+   > balance:             7.245114
+   > gas used:            244300 (0x3ba4c)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004886 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:            0.004886 ETH
+
+
+2_deploy_mycontract.js
+======================
+
+   Deploying 'MyContract'
+   ----------------------
+   > transaction hash:    0x5fedfe297658bf3843eba450e112e03cf556b93decd55b18fb280d5c62bc7bf8
+   > Blocks: 8            Seconds: 25
+   > contract address:    0xCF68a6110Da51C327961940568B48431B4E83F23
+   > block number:        8966561
+   > block timestamp:     1621392018
+   > account:             0x4c520f09A9e4F294Eb639E64cb51c46dCB9785dd
+   > balance:             7.24117108
+   > gas used:            154633 (0x25c09)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00309266 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00309266 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.00797866 ETH
